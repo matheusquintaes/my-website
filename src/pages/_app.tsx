@@ -16,10 +16,13 @@ function App({ Component, pageProps }: AppProps) {
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="../../public/asset/eudoxus-font/inter-font/Inter-VariableFont_slnt,wght.ttf"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
           rel="stylesheet"
         />
+
         <link
           href="../../public/asset/eudoxus-font/EudoxusSans-ExtraBold.woff2"
           rel="stylesheet"

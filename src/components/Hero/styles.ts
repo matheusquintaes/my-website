@@ -16,6 +16,7 @@ export const HeroBg = styled.div`
   flex-direction: row;
   align-items: center;
   position: relative;
+  border-radius: var(--radius);
 `
 
 export const HeroContent = styled.div`
