@@ -1,6 +1,6 @@
 import * as S from './styles'
 
-const Nav = () => (
+const Menu = () => (
   <S.MenuWrapper>
     <ul>
       <li>
@@ -16,4 +16,4 @@ const Nav = () => (
   </S.MenuWrapper>
 )
 
-export default Nav
+export default Menu

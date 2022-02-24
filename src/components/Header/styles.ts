@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.header``
+export const Wrapper = styled.header`
+  position: relative;
+`
 
 export const HeaderContainer = styled.div`
   display: flex;

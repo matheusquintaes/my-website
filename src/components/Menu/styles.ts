@@ -1,6 +1,10 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const MenuWrapper = styled.div`
+  ${media.lessThan('medium')`
+  display: none;
+`}
   ul {
     display: flex;
     flex-direction: row;
