@@ -9,7 +9,7 @@ export const NavOverlayWrapper = styled.div`
   z-index: 3;
   background-color: var(--white);
   height: 60vh;
-  transform: ${({ open }) => (open ? 'translateY(0)' : 'translateY(-120%)')};
+  transform: ${({ open }) => (open ? 'translateY(0)' : 'translateY(-140%)')};
   transition: transform 0.3s ease-in-out;
 `
 export const NavOverlay = styled.nav`

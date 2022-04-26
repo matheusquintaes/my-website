@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import { BadgeCheck } from '@styled-icons/boxicons-regular/BadgeCheck'
 import { DownArrowAlt } from '@styled-icons/boxicons-regular/DownArrowAlt'
+import media from 'styled-media-query'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   padding-right: 3%;
   padding-left: 3%;
 `
@@ -17,12 +18,24 @@ export const HeroBg = styled.div`
   align-items: center;
   position: relative;
   border-radius: var(--radius);
+
+  ${media.lessThan('large')`
+    min-height: initial;
+    border-radius: 0;
+  `}
 `
 
 export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 544px;
+
+  ${media.lessThan('large')`
+  padding-top: var(--section-padding-small);
+  padding-bottom: var(--section-padding-small);
+  padding-right: 3%;
+    padding-left: 3%;
+  `}
 `
 export const HeroTitle = styled.h1`
   font-size: 76px;
@@ -30,6 +43,14 @@ export const HeroTitle = styled.h1`
   margin-bottom: var(--spacing-large);
   letter-spacing: -0.04em;
   color: var(--text-color);
+
+  ${media.lessThan('medium')`
+    font-size: 62px;
+  `}
+
+  ${media.lessThan('small')`
+    font-size: 42px;
+  `}
 
   span {
     color: var(--primary-color);
@@ -50,8 +71,11 @@ export const HeroBadgeWrapper = styled.div`
   will-change: transform;
   right: 4%;
   bottom: 2%;
-
   z-index: 2;
+
+  ${media.lessThan('large')`
+    display:none;
+  `}
 
   h4 {
     font-size: 32px;
@@ -78,6 +102,10 @@ export const ImageHero = styled.img`
   top: auto;
   right: -2%;
   bottom: -10%;
+
+  ${media.lessThan('large')`
+  display: none;
+`}
 `
 
 export const ArrowIcon = styled(DownArrowAlt)`
@@ -89,4 +117,9 @@ export const ArrowIcon = styled(DownArrowAlt)`
   right: 0;
   text-align: center;
   bottom: 2%;
+
+  ${media.lessThan('medium')`
+  display: none;
+
+    `}
 `

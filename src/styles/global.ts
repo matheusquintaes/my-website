@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import media from 'styled-media-query'
 
 const GlobalStyles = createGlobalStyle`
 
@@ -19,6 +20,8 @@ const GlobalStyles = createGlobalStyle`
     --spacing-extra-large: 64px;
     --radius: 30px;
     --section-padding: 100px;
+    --section-padding-medium: 64px;
+    --section-padding-small: 32px;
   }
   
   * {
@@ -52,6 +55,10 @@ const GlobalStyles = createGlobalStyle`
     color: var(--text-color);
     font-weight: 400;
     line-height:34px;
+
+    ${media.lessThan('small')`
+      font-size: 16px;
+    `}
   }
   .container {
     width: 100%;

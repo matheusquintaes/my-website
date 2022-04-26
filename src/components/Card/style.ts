@@ -1,12 +1,19 @@
 import styled from 'styled-components'
 import { Pen } from '@styled-icons/boxicons-regular/Pen'
 import { CodeAlt } from '@styled-icons/boxicons-regular/CodeAlt'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.div`
   background-color: var(--white);
-  width: 544px;
+  max-width: 544px;
   border-radius: var(--radius);
   padding: var(--spacing-large);
+
+  ${media.lessThan('1300px')`
+    max-width: initial;
+    width: 80%;
+    margin-bottom: var(--spacing-large);
+  `}
 `
 
 export const HeadingWrapper = styled.div`
@@ -23,6 +30,7 @@ export const SkillListWrapper = styled.div`
   display: flex;
 
   ul {
+    flex-wrap: wrap;
     display: flex;
   }
   li {
@@ -30,6 +38,7 @@ export const SkillListWrapper = styled.div`
     font-size: 14px;
     color: var(--gray);
     margin-right: var(--spacing-medium);
+    line-height: 24px;
   }
 `
 export const PenIcon = styled(Pen)`

@@ -1,4 +1,5 @@
 import { Copy } from '@styled-icons/boxicons-regular/Copy'
+import media from 'styled-media-query'
 
 import { Twitter } from '@styled-icons/boxicons-logos/Twitter'
 import { Github } from '@styled-icons/boxicons-logos/Github'
@@ -19,6 +20,12 @@ export const Bg = styled.div`
   padding-bottom: var(--section-padding);
   width: 100%;
   border-radius: var(--radius);
+  ${media.lessThan('medium')`
+  padding-top: var(--section-padding-medium);
+  padding-bottom: var(--section-padding-medium);
+  border-radius: 0;
+
+  `}
 `
 export const Container = styled.div`
   max-width: 610px;
@@ -32,6 +39,8 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-right: 3%;
+  padding-left: 3%;
 `
 
 export const Title = styled.h2`

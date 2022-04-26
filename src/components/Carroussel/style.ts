@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components'
+import media from 'styled-media-query'
 
 const services = keyframes`
 	0% { transform: translateX(0%); }
@@ -20,6 +21,10 @@ export const Wrapper = styled.div`
   align-items: center;
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
+  ${media.lessThan('medium')`
+  padding-top: var(--section-padding-medium);
+  padding-bottom: var(--section-padding-medium);
+  `}
 `
 
 export const Gradient = styled.div`

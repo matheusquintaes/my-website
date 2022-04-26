@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.header`
   position: relative;
+  padding-right: 3%;
+  padding-left: 3%;
 `
 
 export const HeaderContainer = styled.div`

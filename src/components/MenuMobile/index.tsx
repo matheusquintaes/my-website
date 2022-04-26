@@ -1,5 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 
+import * as S from './styles'
+
 import Burger from '../Burger'
 import MenuOverlay from '../MenuOverlay'
 
@@ -26,10 +28,10 @@ const MenuMobile = () => {
   useOnClickOutside(node, () => setOpen(false))
 
   return (
-    <div ref={node}>
+    <S.MenuMobileWrapper ref={node}>
       <Burger open={open} setOpen={setOpen} />
       <MenuOverlay open={open} />
-    </div>
+    </S.MenuMobileWrapper>
   )
 }
 
