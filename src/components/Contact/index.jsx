@@ -17,7 +17,11 @@ const Contact = () => (
             experiences.
           </S.Text>
           <S.IconsWrapper>
-            <a href="https://twitter.com/home" target="_blank" rel="noreferrer">
+            <a
+              href="https://twitter.com/matheusquintaes"
+              target="_blank"
+              rel="noreferrer"
+            >
               <S.TwitterIcon size="40" />
             </a>
             <a
