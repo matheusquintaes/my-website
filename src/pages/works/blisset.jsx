@@ -1,7 +1,7 @@
 import WorksTemplate from '../../templates/Works'
 
 function MountEden() {
-  const heading = 'Blisset'
+  const heading = 'Blissett Wealth'
 
   const images = [
     '/img/works/blisset/blisset-1.jpg',
