@@ -5,14 +5,14 @@ const MenuOverlay = ({ setOpen, open }) => {
     <>
       <S.NavOverlayWrapper open={open}>
         <S.NavOverlay>
-          <a onClick={() => setOpen(false)} href="/#about">
+          <a href="/#about" onClick={() => setOpen(false)}>
             about
           </a>
 
-          <a href="works" onClick={() => setOpen(false)}>
+          <a href="/#works" onClick={() => setOpen(false)}>
             works
           </a>
-          <a onClick={() => setOpen(false)} href="contact">
+          <a href="/#contact" onClick={() => setOpen(false)}>
             contact
           </a>
         </S.NavOverlay>
