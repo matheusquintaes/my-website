@@ -1,5 +1,5 @@
-import Menu from 'components/Menu/'
-import MenuMobile from 'components/MenuMobile/'
+import Menu from '../Menu/'
+import MenuMobile from '../MenuMobile/'
 
 import * as S from './styles'
 

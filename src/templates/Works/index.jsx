@@ -1,14 +1,9 @@
 import * as S from './styles'
-import Header from 'components/Header/'
-import Carroussel from 'components/Carroussel/'
-import Contact from 'components/Contact/'
+import Header from '../../components/Header'
+import Carroussel from '../../components/Carroussel/'
+import Contact from '../../components/Contact/'
 
-export type WorksTemplateProps = {
-  heading: string
-  images: Array<string>
-}
-
-const WorksTemplate = ({ heading, images }: WorksTemplateProps) => (
+const WorksTemplate = ({ heading, images }) => (
   <>
     <Header />
     <div className="container">

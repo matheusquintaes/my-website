@@ -1,12 +1,6 @@
 import * as S from './styles'
 
-type WorkItemProps = {
-  link: string
-  title: string
-  tag: string
-}
-
-const WorkItem = ({ link, title, tag }: WorkItemProps) => (
+const WorkItem = ({ link, title, tag }) => (
   <S.WorkItem href={link} target="blank">
     <S.WorkTitle>
       {title}

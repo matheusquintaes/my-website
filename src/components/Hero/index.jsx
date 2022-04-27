@@ -1,4 +1,5 @@
 import * as S from './styles'
+import { Link } from 'react-scroll'
 
 const Hero = () => (
   <S.Wrapper>
@@ -25,7 +26,9 @@ const Hero = () => (
           </div>
         </S.HeroBadgeWrapper>
         <S.ImageHero src="/img/hero-device.png" />
-        <S.ArrowIcon size="40" />
+        <Link to="about" smooth={true} duration={500}>
+          <S.ArrowIcon size="40" />
+        </Link>
       </div>
     </S.HeroBg>
   </S.Wrapper>

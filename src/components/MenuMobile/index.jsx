@@ -5,10 +5,9 @@ import * as S from './styles'
 import Burger from '../Burger'
 import MenuOverlay from '../MenuOverlay'
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const useOnClickOutside = (ref: any, handler: any) => {
+const useOnClickOutside = (ref, handler) => {
   useEffect(() => {
-    const listener = (event: MouseEvent) => {
+    const listener = (event) => {
       if (!ref.current || ref.current.contains(event.target)) {
         return
       }
@@ -22,7 +21,7 @@ const useOnClickOutside = (ref: any, handler: any) => {
 }
 
 const MenuMobile = () => {
-  const [open, setOpen] = useState<boolean>(false)
+  const [open, setOpen] = useState(false)
   const node = useRef()
 
   useOnClickOutside(node, () => setOpen(false))
@@ -30,7 +29,7 @@ const MenuMobile = () => {
   return (
     <S.MenuMobileWrapper ref={node}>
       <Burger open={open} setOpen={setOpen} />
-      <MenuOverlay open={open} />
+      <MenuOverlay setOpen={setOpen} open={open} />
     </S.MenuMobileWrapper>
   )
 }

@@ -1,6 +1,6 @@
 import * as S from './style'
-import FeaturedWork from 'components/FeaturedWork/'
-import WorkItem from 'components/WorkItem/'
+import FeaturedWork from '../FeaturedWork/'
+import WorkItem from '../WorkItem/'
 
 const Works = () => (
   <>

@@ -1,12 +1,6 @@
 import * as S from './styles'
 
-type FeaturedWorkProps = {
-  link: string
-  title: string
-  description: string
-}
-
-const FeaturedWork = ({ link, title, description }: FeaturedWorkProps) => (
+const FeaturedWork = ({ link, title, description }) => (
   <S.FeaturedWorkLink href={`/works/${link}`}>
     <S.FeaturedWorkWrapper bg={link}>
       <S.FeaturedWorkTitle>{title}</S.FeaturedWorkTitle>

@@ -100,8 +100,8 @@ export const ImageHero = styled.img`
   position: absolute;
   left: auto;
   top: auto;
-  right: -2%;
-  bottom: -10%;
+  right: 4%;
+  bottom: 4%;
 
   ${media.lessThan('large')`
   display: none;

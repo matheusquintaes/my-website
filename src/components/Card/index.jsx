@@ -1,15 +1,9 @@
 import * as S from './style'
 
-function Card(props: { title: string }) {
-  interface skillContentLayout {
-    title: string
-    description: string
-    list: Array<string>
-  }
-
+function Card(props) {
   const skill = props.title
 
-  const skillContent: skillContentLayout = {
+  const skillContent = {
     title: '',
     description: '',
     list: []
