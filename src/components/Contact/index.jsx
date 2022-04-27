@@ -10,7 +10,7 @@ const Contact = () => (
             <S.Email href="mailto:matheus.quintaes@gmail.com">
               matheus.quintaes@gmail.com
             </S.Email>
-            <S.IconCopy size="20" />
+            {/* <S.IconCopy size="20" /> */}
           </S.EmailWrapper>
           <S.Text>
             I like to craft solid and scalable frontend products with great user

@@ -36,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
   
   a{
     cursor: pointer;
+    text-decoration:none;
   }
   .subheading {
     font-weight: 600;

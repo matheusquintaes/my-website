@@ -1,23 +1,16 @@
 import * as S from './styles'
-import { Link } from 'react-scroll'
 
 const Menu = () => (
   <S.MenuWrapper>
     <ul>
       <li>
-        <Link to="about" smooth={true} duration={500}>
-          about
-        </Link>
+        <a href="/#about">about</a>
       </li>
       <li>
-        <Link to="works" smooth={true} duration={500}>
-          works
-        </Link>
+        <a href="/#works">works</a>
       </li>
       <li>
-        <Link to="contact" smooth={true} duration={500}>
-          contact
-        </Link>
+        <a href="/#contact">contact</a>
       </li>
     </ul>
   </S.MenuWrapper>

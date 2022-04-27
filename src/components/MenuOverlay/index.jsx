@@ -1,36 +1,20 @@
 import * as S from './styles'
-import { Link } from 'react-scroll'
 
 const MenuOverlay = ({ setOpen, open }) => {
   return (
     <>
       <S.NavOverlayWrapper open={open}>
         <S.NavOverlay>
-          <Link
-            onClick={() => setOpen(false)}
-            to="about"
-            smooth={true}
-            duration={500}
-          >
+          <a onClick={() => setOpen(false)} href="/#about">
             about
-          </Link>
+          </a>
 
-          <Link
-            to="works"
-            onClick={() => setOpen(false)}
-            smooth={true}
-            duration={500}
-          >
+          <a href="works" onClick={() => setOpen(false)}>
             works
-          </Link>
-          <Link
-            onClick={() => setOpen(false)}
-            to="contact"
-            smooth={true}
-            duration={500}
-          >
+          </a>
+          <a onClick={() => setOpen(false)} href="contact">
             contact
-          </Link>
+          </a>
         </S.NavOverlay>
       </S.NavOverlayWrapper>
     </>
