@@ -10,8 +10,8 @@ const Hero = () => (
             I design & build <span>experiences </span>for the<span> web.</span>
           </S.HeroTitle>
           <S.HeroSubTitle>
-            A <b>Visual Developer</b> <b>in Auckland, New Zealand</b>. <br />I
-            specialize in UI/UX Design, Responsive Web Design, and Web
+            A <b>Designer, Web Developer</b> <b>in Auckland, New Zealand</b>.
+            <br />I specialize in UI/UX Design, Responsive Web Design, and Web
             Development.
           </S.HeroSubTitle>
         </S.HeroContent>

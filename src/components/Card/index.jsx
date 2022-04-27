@@ -12,7 +12,7 @@ function Card(props) {
   if (skill === 'Design') {
     skillContent.title = 'Design'
     skillContent.description =
-      '<b>Bringing work to life.</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      'I value simple content structure, <b>clean design patterns</b>, and thoughtful interactions.      '
     skillContent.list = [
       'Design System',
       'UI/UX Design',
@@ -24,8 +24,16 @@ function Card(props) {
   if (skill === 'Development') {
     skillContent.title = 'Development'
     skillContent.description =
-      '<b>AAAA</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    skillContent.list = ['React', 'Wordpress']
+      'I like to code things from <b>scratch</b> , and enjoy bringing ideas to life in the browser.'
+    skillContent.list = [
+      'HTML',
+      'CSS',
+      'Sass',
+      'Javascript',
+      'React',
+      'PHP',
+      'Wordpress'
+    ]
   }
 
   return (

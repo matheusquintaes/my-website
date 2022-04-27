@@ -23,6 +23,8 @@ export const FeaturedWorkItems = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  transition: transform 0.5s;
+
   ${media.lessThan('medium')`
     flex-wrap: wrap;
   `}

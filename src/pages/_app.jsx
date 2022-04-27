@@ -1,6 +1,8 @@
 import Head from 'next/head'
 
 import GlobalStyles from '../styles/global'
+import { DefaultSeo } from 'next-seo'
+import SEO from '../../next-seo.config'
 
 function App({ Component, pageProps }) {
   return (
@@ -22,6 +24,7 @@ function App({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
+      <DefaultSeo {...SEO} />
       <GlobalStyles />
       <Component {...pageProps} />
     </>

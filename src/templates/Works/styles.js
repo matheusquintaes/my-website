@@ -1,15 +1,14 @@
 import styled from 'styled-components'
-import Link from 'next/link'
 
 export const Content = styled.section`
   text-align: center;
 
-  margin: auto;
+  margin: var(--section-padding-medium) auto;
 `
 
 export const Heading = styled.h1`
-  font-size: var(--large);
-  margin-bottom: var(--large);
+  font-size: 48px;
+  margin-bottom: var(--spacing-extra-large);
 `
 
 export const Body = styled.div`
@@ -18,4 +17,11 @@ export const Body = styled.div`
     width: 100%;
   }
 `
-export const LinkHome = styled(Link)``
+export const LinkHome = styled.a`
+  color: var(--primary-color);
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`

@@ -13,6 +13,15 @@ export const FeaturedWorkWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: var(--radius);
+  transition: transform 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-10px);
+    &::after {
+      opacity: 0.8;
+    }
+  }
 
   ${media.lessThan('medium')`
     width: 100%;

@@ -17,13 +17,15 @@ const About = () => (
       </S.TextWrapper>
 
       <S.AvatarWrapper>
-        <img src="/img/matt.jpg" alt="" />
+        <img src="/img/matt.jpg" alt="Image of Matheus Quintaes" />
         <S.AvatarInfo>
           <h5>Matt Quintaes</h5>
           <p>Front-end / UI/UX Design</p>
         </S.AvatarInfo>
       </S.AvatarWrapper>
-      <S.Link href="www.google.com.br">Download my CV.</S.Link>
+      <S.Link target="_blank" href="/asset/Matt-CV.pdf">
+        Download my CV.
+      </S.Link>
     </S.Container>
   </S.Wrapper>
 )
