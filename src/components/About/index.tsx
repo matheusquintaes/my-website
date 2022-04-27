@@ -1,7 +1,7 @@
 import * as S from './style'
 
 const About = () => (
-  <S.Wrapper>
+  <S.Wrapper id="about">
     <S.Container>
       <h4 className="subheading">WHO IS MATT QUINTAES</h4>
       <h2 className="subtitle">A bit about me</h2>

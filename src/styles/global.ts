@@ -34,6 +34,9 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Eudoxus Sans', system-ui, sans-serif;
   } 
   
+  a{
+    cursor: pointer;
+  }
   .subheading {
     font-weight: 600;
     font-size: 14px;

@@ -7,7 +7,7 @@ const Header = function () {
   return (
     <S.Wrapper>
       <S.HeaderContainer>
-        <S.LogoWrapper>
+        <S.LogoWrapper href="/">
           <S.ImageLogo src="/img/memoji.png" />
           <S.TextLogo>
             <span>matheus</span>quintaes

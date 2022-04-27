@@ -15,9 +15,11 @@ export const HeaderContainer = styled.div`
   margin-left: auto;
   justify-content: space-between;
 `
-export const LogoWrapper = styled.div`
+export const LogoWrapper = styled.a`
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: var(--black);
 `
 
 export const ImageLogo = styled.img``

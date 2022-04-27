@@ -1,38 +1,61 @@
 import * as S from './style'
+import FeaturedWork from 'components/FeaturedWork/'
+import WorkItem from 'components/WorkItem/'
 
 const Works = () => (
   <>
-    <S.Wrapper>
+    <S.Wrapper id="works">
       <S.Container>
         <h4 className="subheading">WORKS</h4>
         <h2 className="subtitle">Some Things I’ve Built</h2>
-        <S.FeaturedWorkWrapper>
-          <S.FeaturedWork>
-            <S.FeaturedWorkTitle>Blissett Wealth</S.FeaturedWorkTitle>
-            <S.FeaturedWorkDescription>Website</S.FeaturedWorkDescription>
-          </S.FeaturedWork>
-          <S.FeaturedWork>
-            <S.FeaturedWorkTitle>ComLink</S.FeaturedWorkTitle>
-            <S.FeaturedWorkDescription>
-              Product Design/Development
-            </S.FeaturedWorkDescription>
-          </S.FeaturedWork>
-          <S.FeaturedWork>
-            <S.FeaturedWorkTitle>Mount Eden</S.FeaturedWorkTitle>
-            <S.FeaturedWorkDescription>Website</S.FeaturedWorkDescription>
-          </S.FeaturedWork>
-        </S.FeaturedWorkWrapper>
+        <S.FeaturedWorkItems>
+          <FeaturedWork
+            link="blisset"
+            title="Blissett Wealth"
+            description="Website"
+          />
+          <FeaturedWork
+            link="comlink"
+            title="Comlink"
+            description="Portal B2B"
+          />
+          <FeaturedWork
+            link="mount-eden"
+            title="Mount Eden"
+            description="Website"
+          />
+        </S.FeaturedWorkItems>
 
         <S.MoreWorks>
           <h2 className="subtitle">More Works</h2>
           <S.MoreWorkWrapper>
-            <S.WorkItem href="https://aspirefurniture.co.nz/" target="blank">
-              <S.WorkTitle>
-                aspirefurniture.co.nz <S.Arrow size="40" />
-              </S.WorkTitle>
-              <S.WorkTag>Website - Live</S.WorkTag>
-            </S.WorkItem>
-            <S.WorkItem
+            <WorkItem
+              link="https://aspirefurniture.co.nz/"
+              title="Aspire Furniture"
+              tag="Website - Live"
+            />
+            <WorkItem
+              link="https://aspirefurniture.co.nz/"
+              title="Aspire Furniture"
+              tag="Website - Live"
+            />
+            <WorkItem
+              link="https://aspirefurniture.co.nz/"
+              title="Aspire Furniture"
+              tag="Website - Live"
+            />
+            <WorkItem
+              link="https://aspirefurniture.co.nz/"
+              title="Aspire Furniture"
+              tag="Website - Live"
+            />
+            <WorkItem
+              link="https://aspirefurniture.co.nz/"
+              title="Aspire Furniture"
+              tag="Website - Live"
+            />
+
+            {/* <S.WorkItem
               target="blank"
               href="https://www.figma.com/proto/NVnjx6slugKcV3jgKYsKKJ/Harcourts-Milestone-Projects?page-id=0%3A1&node-id=1%3A66&viewport=241%2C48%2C0.14&scaling=min-zoom"
             >
@@ -79,7 +102,7 @@ const Works = () => (
                 kiwicoasthoney.co.nz <S.Arrow size="40" />
               </S.WorkTitle>
               <S.WorkTag>Website</S.WorkTag>
-            </S.WorkItem>
+            </S.WorkItem> */}
           </S.MoreWorkWrapper>
         </S.MoreWorks>
       </S.Container>

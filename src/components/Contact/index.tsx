@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 const Contact = () => (
-  <S.Wrapper>
+  <S.Wrapper id="contact">
     <S.Bg>
       <S.Container>
         <S.ContentWrapper>
