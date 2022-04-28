@@ -41,6 +41,12 @@ const Works = () => (
             />
 
             <WorkItem
+              link="https://gatsby-starter-personality.netlify.app/"
+              title="Gatsby Starter - Personality"
+              tag="GatsbyJS"
+            />
+
+            <WorkItem
               link="https://www.figma.com/proto/oMp7p30PggYt35hjuEa4eD/Me-Moir?page-id=0%3A1&node-id=7%3A2&viewport=241%2C48%2C0.51&scaling=min-zoom"
               title=" Me-Moir "
               tag="Figma Website Design File"
@@ -64,6 +70,11 @@ const Works = () => (
               link="https://kiwicoasthoney.co.nz "
               title="Kiwi Coast Honey"
               tag="Website"
+            />
+            <WorkItem
+              link="https://the-hacker-news.netlify.app/"
+              title="Hacker News"
+              tag="Personal Project - ReactJS"
             />
           </S.MoreWorkWrapper>
         </S.MoreWorks>
