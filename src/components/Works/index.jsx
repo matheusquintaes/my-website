@@ -32,22 +32,28 @@ const Works = () => (
             <WorkItem
               link="https://aspirefurniture.co.nz/"
               title="Aspire Furniture"
-              tag="Live Website"
+              tag="Website"
             />
             <WorkItem
               link="https://www.figma.com/proto/NVnjx6slugKcV3jgKYsKKJ/Harcourts-Milestone-Projects?page-id=0%3A1&node-id=1%3A66&viewport=241%2C48%2C0.14&scaling=min-zoom"
               title="Harcouts Milestone Projects"
               tag="Figma Website Design File"
             />
+
             <WorkItem
               link="https://www.figma.com/proto/oMp7p30PggYt35hjuEa4eD/Me-Moir?page-id=0%3A1&node-id=7%3A2&viewport=241%2C48%2C0.51&scaling=min-zoom"
               title=" Me-Moir "
               tag="Figma Website Design File"
             />
             <WorkItem
+              link="https://grownzbusiness.co.nz/"
+              title="Grow NZ Business"
+              tag="Website"
+            />
+            <WorkItem
               link="https://lusciouslivingsilverdale.co.nz/"
               title="Luscious Living Silverdale"
-              tag="Live Landing Page"
+              tag="Landing Page"
             />
             <WorkItem
               link="https://flowerstation.co.nz"
@@ -57,7 +63,7 @@ const Works = () => (
             <WorkItem
               link="https://kiwicoasthoney.co.nz "
               title="Kiwi Coast Honey"
-              tag="Live Website"
+              tag="Website"
             />
           </S.MoreWorkWrapper>
         </S.MoreWorks>
