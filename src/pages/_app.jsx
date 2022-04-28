@@ -11,7 +11,6 @@ function App({ Component, pageProps }) {
         <title>Matheus Quintaes</title>
         <link rel="icon" type="image/x-icon" href="static/favicon.ico" />
 
-        <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#06092b" />
         <meta
           name="description"
