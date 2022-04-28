@@ -39,7 +39,7 @@ function Card(props) {
   return (
     <S.Wrapper>
       <S.HeadingWrapper>
-        {skill === 'Desing' ? (
+        {skill === 'Design' ? (
           <S.PenIcon size="30" />
         ) : (
           <S.CodeIcon size="30" />
