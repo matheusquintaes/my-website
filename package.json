@@ -15,6 +15,8 @@
   "dependencies": {
     "@styled-icons/boxicons-logos": "^10.38.0",
     "@styled-icons/boxicons-regular": "^10.38.0",
+    "@styled-icons/fa-brands": "^10.38.0",
+    "@styled-icons/simple-icons": "^10.45.0",
     "next": "12.0.8",
     "next-pwa": "^5.4.4",
     "next-seo": "^5.4.0",
