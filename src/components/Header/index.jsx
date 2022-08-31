@@ -8,7 +8,7 @@ const Header = function () {
     <S.Wrapper>
       <S.HeaderContainer>
         <S.LogoWrapper href="/">
-          <S.ImageLogo src="/img/memoji.png" />
+          <S.ImageLogo src="/img/memoji2x.png" />
           <S.TextLogo>
             <span>matheus</span>quintaes
           </S.TextLogo>

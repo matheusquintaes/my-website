@@ -22,7 +22,9 @@ export const LogoWrapper = styled.a`
   color: var(--black);
 `
 
-export const ImageLogo = styled.img``
+export const ImageLogo = styled.img`
+  width: 80px;
+`
 
 export const TextLogo = styled.div`
   font-weight: 700;
