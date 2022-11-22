@@ -1,6 +1,6 @@
 import WorksTemplate from '../../templates/Works'
 
-function MountEden() {
+function Page() {
   const heading = 'Blissett Wealth'
 
   const images = [
@@ -13,4 +13,4 @@ function MountEden() {
   return <WorksTemplate heading={heading} images={images} />
 }
 
-export default MountEden
+export default Page

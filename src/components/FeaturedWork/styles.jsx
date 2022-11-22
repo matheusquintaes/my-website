@@ -15,6 +15,9 @@ export const FeaturedWorkWrapper = styled.div`
   border-radius: var(--radius);
   transition: transform 0.5s;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 
   &:hover {
     transform: translateY(-10px);

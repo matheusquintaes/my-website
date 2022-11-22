@@ -10,6 +10,11 @@ const Works = () => (
         <h2 className="subtitle">Some Things I’ve Built</h2>
         <S.FeaturedWorkItems>
           <FeaturedWork
+            link="kiwi-driving-test"
+            title="Kiwi Driving Test"
+            description="Web App"
+          />
+          <FeaturedWork
             link="blisset"
             title="Blissett Wealth"
             description="Website"
@@ -18,11 +23,6 @@ const Works = () => (
             link="comlink"
             title="Comlink"
             description="Portal B2B"
-          />
-          <FeaturedWork
-            link="mount-eden"
-            title="Mount Eden"
-            description="Website"
           />
         </S.FeaturedWorkItems>
 
